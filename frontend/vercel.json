@@ -4,6 +4,6 @@
   "installCommand": "npm install",
   "framework": "vite",
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "http://147.182.199.128:8002/api/$1" }
+    { "source": "/api/(.*)", "destination": "https://147.182.199.128.nip.io/pathfinding/$1" }
   ]
 }
